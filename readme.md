@@ -2,7 +2,7 @@ Simple quiz app made for study. Project built with react using vite and react ho
 
 ## This project was bootstrapped with Vite.
 
-(https://vitejs.dev/)
+https://vitejs.dev/
 
 ## How to run?
 
@@ -10,7 +10,7 @@ Simple quiz app made for study. Project built with react using vite and react ho
 
 ## Extra package npm form
 
-(https://react-hook-form.com/)
+https://react-hook-form.com/
 
 `npm i react-hook-form`
 
