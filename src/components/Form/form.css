@@ -1,0 +1,76 @@
+form {
+    background-color: #2d0303ca;
+    border: 3px double bisque;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 400px;
+    padding: 50px 50px;
+}
+
+.label-input {
+    font-size: 1.5em;
+    padding: 10px;
+}
+
+input {
+    color: white;
+    background-color: darkgrey;
+    padding: 3%;
+    border-radius: 30px;
+    font-size: 1.5em;
+    filter: drop-shadow(0 0 0.20rem #646cff);
+}
+
+input:hover {
+    opacity: 0.9;
+}
+
+input[type=submit] {
+    margin-top: 10%;
+    padding: 15px 15px;
+    background-color: #947b47f7;
+    background-image: radial-gradient(93% 87% at 87% 89%, rgba(0, 0, 0, 0.23) 0%, transparent 86.18%), radial-gradient(66% 66% at 26% 20%, rgba(255, 255, 255, 0.55) 0%, rgba(255, 255, 255, 0) 69.79%, rgba(255, 255, 255, 0) 100%);
+    box-shadow: inset -3px -3px 9px rgba(255, 255, 255, 0.25), inset 0px 3px 9px rgba(255, 255, 255, 0.3), inset 0px 1px 1px rgba(255, 255, 255, 0.6), inset 0px -8px 36px rgba(0, 0, 0, 0.3), inset 0px 1px 5px rgba(255, 255, 255, 0.6), 2px 19px 31px rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 1.8em;
+    font-family: cursive;
+    letter-spacing: 2px;
+    border: 0;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    cursor: pointer;
+
+}
+
+input[type=submit]:hover {
+    opacity: 0.9;
+}
+
+p {
+    font-size: 1.2em;
+    color: white
+}
+
+/* phone */
+@media(max-width: 517px) and (max-height:750px) {
+    form {
+        width: 95vw;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 30px;
+    }
+
+    input {
+        width: 75vw;
+    }
+
+    hr {
+        width: 90%
+    }
+
+}
